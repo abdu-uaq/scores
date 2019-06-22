@@ -7,8 +7,9 @@ verify_ssl = true
 
 [packages]
 quart = "*"
-motorengine = "*"
 tornado = "*"
+sqlalchemy = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"
